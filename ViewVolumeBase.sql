@@ -12,7 +12,7 @@ EXEC sp_spaceused
 */
 
 DECLARE
-@BASEDEDADOS = 'Name_Database'
+@BASEDEDADOS VARCHAR(100) = 'Name_Database'
 GO
 
 USE @BASEDEDADOS
